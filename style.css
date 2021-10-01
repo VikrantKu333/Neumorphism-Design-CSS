@@ -1,0 +1,18 @@
+@import url('styles.css');
+div{
+    width: 80%;
+    height: 80vh;
+    margin: 5% auto;
+    background-color: aqua;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px rgb(11, 175, 216),
+                -3px -3px 10px rgb(5, 237, 245);
+    border: 1px solid rgba(0, 0, 0, 0);
+    
+}
+div:hover{
+    box-shadow: inset 3px 3px 15px rgb(11, 175, 216),
+                inset -3px -3px 10px rgb(5, 237, 245);
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    
+}
